@@ -1,0 +1,144 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-nav{
+    text-align: right;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+
+.google-logo{
+    font-family: 'Product Sans';
+    font-size: 6vw;
+    letter-spacing: -8px;
+    margin-bottom: 10px;
+}
+
+.blue{
+    color: #4285F4;
+}
+
+.red{
+    color: #EA4335;
+}
+
+.yellow{
+    color:#FBBC05;
+}
+
+.green{
+    color:#34A853;
+}
+
+.main-nav{
+    padding: 10px 20px;
+}
+
+.nav-link {
+    color: rgba(0,0,0,.87);
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+
+
+.search-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.main-search-bar{
+    border-radius: 24px;
+    height:20px;
+    margin-bottom: 20px;
+    padding: 10px 16px;
+    width: 400px;
+
+
+}
+
+.main-page-button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    cursor: pointer;
+    font-size: 14px;
+    height: 36px;
+    min-width: 54px;
+    padding: 0 16px;
+}
+
+
+.main-page-button:hover{
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    color: #202124;
+
+}
+
+/* IMAGES SPECIFIC STUFF */
+#images-text{
+    letter-spacing: normal;
+    font-size: 16px;
+}
+
+/* Advanced-nav */
+.advanced-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+#advanced-search-heading{
+    color:#d93025;
+    margin-left: 10px;
+}
+
+.advanced-form{
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 50px 50px 50px 50px;
+    padding-left: 10px;
+    width:80vw;
+}
+
+.advanced-input{
+    height:25px;
+}
+
+.advanced-search-button{
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+    cursor: pointer;
+    height: 30px;
+    grid-column-start: 2;
+    justify-self: end;
+    min-width:120px;
+    float: right;
+}
+
+.advanced-search-button:hover{
+    background-color: #357ae8;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
+
+}
